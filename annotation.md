@@ -41,7 +41,13 @@ less /data/prokka/prokka_instruction.sh
 ```
 This is the command that you just executed
 `prokka --outdir Staph.bead.183 --kingdom Bacteria --locustag Staph.bead.183 --prefix Staph.bead.183 /data/genome_assemblies/Staph.bead.183.fna`
-
+Let's explore the results
+```
+cd /data/prokka/Staph.bead.183
+ls
+less Staph.bead.183.faa
+less Staph.bead.183.txt
+```
 ## ABRicate
 [ABRicate](https://github.com/tseemann/abricate) is a tool for mass screening of contigs for antimicrobial resistance, virulence genes or genes of interest. It comes bundled with multiple databases: NCBI, CARD, ARG-ANNOT, Resfinder, MEGARES, EcOH, PlasmidFinder, Ecoli_VF and VFDB. You can also make your own database.
 
